@@ -1,3 +1,19 @@
+/***************************************************************
+* file: Set.cpp
+* author: Jinjing Lee
+* class: CS 408 Programming Languages
+*
+* Definition of abstract data type Set for student search application
+* union, intersection, and difference in C++.
+*
+* Set is used for student search application that finds students based on two student 
+* table for CS435 and CS301
+*
+* assignment: project1
+* date last modified: 02/18/2018
+*
+****************************************************************/
+
 #include "Set.h"
 #include <iostream>
 using namespace std;
@@ -25,7 +41,6 @@ int Set::GetIntAt(int num)const
 void Set::AppendValue(int value)
 {
 	*(intList + (numOfElement++)) = value;
-
 }
 
 // It appends non-duplicate elements in the argument Set into the calling Set

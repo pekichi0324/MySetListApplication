@@ -1,3 +1,19 @@
+/***************************************************************
+* file: Driver.cpp
+* author: Jinjing Lee
+* class: CS 408 Programming Languages
+*
+* Implement an practical application that uses set operation such as 
+* union, intersection, and difference in Both non ADT and ADT version.
+*
+* Student search application that finds students in either or both 
+* in CS435  and CS301
+*
+* assignment: project1
+* date last modified: 02/18/2018
+*
+****************************************************************/
+
 #include <iostream>
 #include "Set.h"
 #include <map>
